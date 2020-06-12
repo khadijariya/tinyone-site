@@ -71,3 +71,37 @@ p {
     background-color: #000000;
 }
 /* slider area end */
+/* features part design start */
+.feature-title {
+    padding: 170px 0px 80px 0px;
+}
+.feature-title h2 {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+}
+.feature-title p {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px;
+    width: 75%;
+    margin: 0 auto;
+}
+.feature-type-content h3 {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 21px;
+    color: #010101;
+}
+.feature-type-content p {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: normal;
+    width: 101%;
+    font-size: 18px;
+    color: #a7a7a7;
+}
+.featured-details-wrap {
+    padding: 0px 100px 135px 100px;
+}
+.feature-type-image {
+    width: 155%;
+}
+/* features part design end */
