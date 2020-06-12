@@ -1,22 +1,379 @@
 /*// Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {
-  
+    .navbar-light .navbar-nav .active > .nav-link,
+    .navbar-light .navbar-nav .nav-link.active {
+        text-align: center;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        text-align: center;
+        border-bottom: 3px solid #fcdb00;
+        width: 45%;
+        margin: 0 auto;
+        background: #ffffff;
+    }
+    .header-area {
+        padding: 30px 0px;
+    }
+    .tiny-slider {
+        text-align: center;
+    }
+    .inspiration h2 {
+        font-size: 38px;
+        padding-top: 0px;
+        font-weight: bold;
+    }
+    .inspiration h4 {
+        font-size: 21px;
+        padding: 15px 0px;
+    }
+    .inspiration ul li {
+        font-size: 45px;
+        padding: 0px 10px 82px 8px;
+    }
+    .inspiration {
+        margin-top: -20px;
+    }
+    .tab-image {
+        margin-top: -80px;
+    }
+    .tab-image img {
+        width: 70%;
+    }
+    .carousel-indicators {
+        bottom: -60px;
+    }
+    .feature-title {
+        padding: 35px 42px 30px 0px;
+    }
+    .feature-title h2 {
+        font-size: 27px;
+        padding-left: 25px;
+    }
+    .feature-title p {
+        font-size: 15px;
+        width: 114%;
+    }
+    .feature-type-image {
+        width: 40px;
+        margin: 0 auto;
+        padding-bottom: 15px;
+    }
+    .feature-type-content h3 {
+        font-size: 20px;
+    }
+    .feature-type-content p {
+        /* width: 123%; */
+        font-size: 15px;
+        margin-left: -4px;
+    }
+    .feature-package {
+        padding-bottom: 5px;
+    }
+    .padd-bottom {
+        padding-bottom: 0px !important;
+    }
+    .featured-details-wrap {
+        padding: 0px 45px 0px 45px;
+        text-align: center;
+    }
+    .form-design {
+        padding: 0;
+        margin-right: 0px;
+    }
+    .custom-input input {
+        width: 99%;
+        margin: 0 auto;
+        padding: 20px;
+    }
+    .custom-button {
+        margin-left: 56px;
+        margin-top: 15px;
+        text-align: center;
+    }
+    .btn-custom {
+        padding: 8px 32px;
+    }
+    .social-media-icon ul li {
+        font-size: 18px;
+        width: 24px;
+    }
+    .list-inline-item:not(:last-child) {
+        margin-right: 1px;
+    }
+    .social-media-icon {
+        padding: 18px;
+        margin-left: 59px;
+    }
+    .support-content p {
+        font-size: 15px;
+        padding: 0px 1%;
+    }
+    .support-content h2 {
+        font-size: 28px;
+    }
+    .support-part {
+        padding: 25px;
+    }
+    .footer-area {
+        padding: 0px 0px 51px 75px;
+    }
+    .address-column address {
+        text-align: center;
+        width: 89%;
+        margin-left: -8px;
+    }
+    .blog-column ul li {
+        margin-left: -23px;
+    }
 }
-
 /*// Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) and (max-width: 767.98px) {
-   
+    .navbar-light .navbar-nav .active > .nav-link,
+    .navbar-light .navbar-nav .nav-link.active {
+        text-align: center;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        text-align: center;
+        border-bottom: 3px solid #fcdb00;
+        width: 45%;
+        margin: 0 auto;
+        background: #ffffff;
+    }
+    .header-area {
+        padding: 30px 0px;
+    }
+    .tiny-slider {
+        text-align: center;
+    }
+    .inspiration h2 {
+        font-size: 38px;
+        padding-top: 0px;
+        font-weight: bold;
+    }
+    .inspiration h4 {
+        font-size: 21px;
+        padding: 15px 0px;
+    }
+    .inspiration ul li {
+        font-size: 48px;
+        padding: 0px 10px 82px 8px;
+    }
+    .inspiration {
+        padding-bottom: 0px;
+    }
+    .tab-image {
+        margin-top: -55px;
+    }
+    .tab-image img {
+        width: 60%;
+    }
+    .carousel-indicators {
+        bottom: -60px;
+    }
+    .feature-title {
+        padding: 65px 53px 35px 0px;
+    }
+    .feature-title h2 {
+        font-size: 32px;
+        padding-left: 25px;
+    }
+    .feature-title p {
+        font-size: 17px;
+        width: 112%;
+    }
+    .feature-type-image {
+        width: 40px;
+        margin: 0 auto;
+        padding-bottom: 15px;
+    }
+    .feature-type-content h3 {
+        font-size: 20px;
+    }
+    .feature-type-content p {
+        width: 109%;
+        font-size: 16px;
+    }
+    .feature-package {
+        padding-bottom: 20px;
+    }
+    .padd-bottom {
+        padding-bottom: 0px !important;
+    }
+    .featured-details-wrap {
+        padding: 0px 50px;
+        text-align: center;
+    }
+    .custom-input input {
+        width: 75%;
+        margin: 0 auto;
+        padding: 20px;
+    }
+    .custom-button {
+        margin-left: 56px;
+        margin-top: 15px;
+        text-align: center;
+    }
+    .btn-custom {
+        padding: 8px 32px;
+    }
+    .social-media-icon ul li {
+        font-size: 27px;
+        width: 40px;
+    }
+    .social-media-icon {
+        padding: 18px;
+        margin-left: 59px;
+    }
+    .support-content h2 {
+        font-size: 29px;
+    }
+    .support-content p {
+        padding: 0px;
+        font-size: 16px;
+    }
+    .support-part {
+        padding: 40px;
+    }
+    .footer-area {
+        padding: 0px 48px 57px 3px;
+    }
+    .address-column address {
+        font-size: 11px;
+        padding: 0px 4%;
+    }
+    .blog-column ul li a {
+        font-size: 13px;
+    }
 }
-
 /*// Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) and (max-width: 991.98px) {
-    
+    .navbar-light .navbar-nav .active > .nav-link,
+    .navbar-light .navbar-nav .nav-link.active {
+        text-align: center;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        text-align: center;
+        border-bottom: 3px solid #fcdb00;
+        width: 45%;
+        margin: 0 auto;
+        background: #ffffff;
+    }
+    .tiny-slider {
+        text-align: center;
+    }
+    .inspiration h2 {
+        font-size: 38px;
+        padding-top: 0px;
+        font-weight: bold;
+    }
+    .inspiration h4 {
+        font-size: 21px;
+        padding: 15px 0px;
+    }
+    .inspiration {
+        padding-bottom: 0px;
+    }
+    .tab-image {
+        margin-top: -55px;
+    }
+    .carousel-indicators {
+        bottom: -60px;
+    }
+    .feature-title {
+        padding: 65px 53px 55px 0px;
+    }
+    .feature-title p {
+        font-size: 18px;
+        width: 105%;
+    }
+    .feature-type-image {
+        width: 40px;
+        margin: 0 auto;
+        padding-bottom: 15px;
+    }
+    .feature-type-content h3 {
+        font-size: 20px;
+    }
+    .feature-type-content p {
+        width: 109%;
+        font-size: 16px;
+    }
+    .feature-package {
+        padding-bottom: 20px;
+    }
+    .padd-bottom {
+        padding-bottom: 0px !important;
+    }
+    .featured-details-wrap {
+        padding: 0px 100px 0px 100px;
+        text-align: center;
+    }
+    .custom-input input {
+        width: 75%;
+        margin: 0 auto;
+    }
+    .custom-button {
+        margin-left: 56px;
+        margin-top: 15px;
+        text-align: center;
+    }
+    .social-media-icon ul li {
+        font-size: 27px;
+        width: 40px;
+    }
+    .social-media-icon {
+        padding: 18px;
+        margin-left: 59px;
+    }
+    .support-content p {
+        padding: 0px;
+        margin-bottom: 0px;
+    }
+    .support-part {
+        padding: 40px;
+    }
+    .footer-area {
+        padding: 0px 50px 90px 70px;
+    }
+    .address-column address {
+        padding: 0px 1%;
+    }
 }
-
 /*// Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) and (max-width: 1199.98px) {
-
+    .feature-type-content h3 {
+        font-size: 20px;
+    }
+    .feature-type-content p {
+        width: 131%;
+        font-size: 16px;
+    }
+    .featured-details-wrap {
+        padding: 0px 53px 40px 104px;
+    }
+    .feature-type-image {
+        width: 32px;
+    }
+    .feature-title {
+        padding: 70px 3px 60px 14px;
+    }
+    .feature-title p {
+        font-size: 20px;
+        width: 84%;
+    }
+    .features-part {
+        padding-right: 90px;
+    }
+    .support-content p {
+        padding: 0px 1%;
+    }
+    .social-media-icon ul li {
+        font-size: 27px;
+        width: 40px;
+    }
+    .address-column address {
+        padding: 0px 3%;
+    }
 }
-
 /*// Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {}

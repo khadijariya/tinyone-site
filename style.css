@@ -105,3 +105,85 @@ p {
     width: 155%;
 }
 /* features part design end */
+/* support part design start */
+.support-part {
+    background: #010101;
+    padding: 80px;
+}
+.support-content h2 {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    color: #fcdb00;
+}
+.support-content p {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 19px;
+    font-weight: normal;
+    color: #898989;
+    padding: 0px 6%;
+}
+/* its for form design */
+.form-design {
+    padding: 28px;
+}
+.custom-input {
+    padding-left: 45px;
+    padding-right: 0px;
+}
+.custom-input input {
+    padding: 24px;
+}
+.custom-button {
+    margin-left: -7px;
+}
+.btn-custom {
+    background: #fcdb00;
+    text-transform: uppercase;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+    padding: 12px 28px;
+    font-size: 15px;
+}
+.social-media-icon ul li {
+    font-size: 23px;
+    background: #fcdb00;
+    border-radius: 5px;
+    width: 35px;
+}
+.social-media-icon ul li a {
+    color: #000000;
+}
+.social-media-icon {
+    padding: 32px;
+}
+.list-inline-item:not(:last-child) {
+    margin-right: 24px;
+}
+/* support part design end */
+/* footer part design start */
+.footer-area {
+    background: #010101;
+    padding: 0px 0px 90px 100px;
+}
+.address-column address {
+    font-size: 15px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: normal;
+    color: #ffffff;
+    padding: 0px 10%;
+    line-height: 25px;
+}
+.blog-column ul li {
+    list-style: none;
+}
+.blog-column ul li a {
+    color: #ffffff;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+/* footer part design end */
+/* font-family: 'PT Sans', sans-serif; */
