@@ -1,7 +1,6 @@
 body {
     margin: 0;
     padding: 0;
-   
 }
 html {
     scroll-behavior: smooth;
@@ -11,7 +10,6 @@ html {
     background: #fcdb00;
     padding: 40px 0px;
 }
-
 .custom-menu ul li a {
     font-family: 'PT Sans', sans-serif;
     font-weight: bold;
@@ -19,9 +17,57 @@ html {
     color: #010101 !important;
     text-transform: capitalize;
 }
-
 .custom-menu ul li {
     padding: 0px 35px;
 }
-
 /* header area end */
+/* slider area start */
+.slider-part {
+    background: #fcdb00;
+    padding-bottom: 45px;
+}
+.inspiration {
+    padding: 20px;
+}
+.inspiration h2,
+h4,
+p {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: normal;
+}
+.inspiration h2 {
+    font-size: 32px;
+    padding-top: 46px;
+}
+.inspiration h4 {
+    font-size: 19px;
+    color: #313841;
+    padding: 20px 0px;
+}
+.inspiration p {
+    font-size: 16px;
+    color: #555555;
+    padding-bottom: 15px;
+}
+.inspiration ul li {
+    font-size: 48px;
+    padding: 0px 25px 80px 8px;
+}
+.inspiration ul li a {
+    color: #000000;
+}
+.custom-indicator li {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+.carousel-indicators {
+    bottom: -32px;
+}
+.custom-indicator li:hover {
+    background-color: #000000;
+}
+.custom-indicator li.active {
+    background-color: #000000;
+}
+/* slider area end */
